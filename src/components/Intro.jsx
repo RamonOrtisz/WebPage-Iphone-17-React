@@ -16,9 +16,9 @@ function Intro(){
             </div>
 
             <div className="flex flex-col md:flex-row gap-4 justify-center items-center mb-16 font-medium">
-                <button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-full text-lg font-medium transition-all duration-300 hover:scale-105 shadow-lg shadow-blue-500 cursor-pointer
+                <button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-full text-lg font-medium transition-all duration-300 hover:scale-105 shadow-lg shadow-blue-500/50 cursor-pointer
                 /50">Compre agora</button>
-                <button>Saiba mais</button>
+                <button className="border-2 border-white rounded-full hover:bg-white hover:text-black text-white px-8 py-4 transition-all duration-300 hover:scale-105 cursor-pointer">Saiba mais</button>
             </div>
 
         </section>
