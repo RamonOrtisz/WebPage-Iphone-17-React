@@ -21,6 +21,15 @@ function Intro(){
                 <button className="border-2 border-white rounded-full hover:bg-white hover:text-black text-white px-8 py-4 transition-all duration-300 hover:scale-105 cursor-pointer">Saiba mais</button>
             </div>
 
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mx-auto max-w-5xl">
+                {specs.map( (spec, index) => (
+                    <div key={index} className="bg-gray-900 rounded-2xl p-6 hover:bg-gray-800 transition-all duration-300 hover:scale-105 cursor-pointer">
+                        <p className={`text-3xl font-bold mb-2 ${spec.color}`}>{spec.value}</p>
+                        <p className={`text-sm text-gray-300 mt-2`}>{spec.label}</p>
+                    </div>
+                ))}
+            </div>
+
         </section>
     )
 }
