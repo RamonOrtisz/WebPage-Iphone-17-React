@@ -1,3 +1,4 @@
+import Colors from "./components/Colors"
 import Hero from "./components/Hero"
 import Hightlights from "./components/Highlights"
 import Intro from "./components/Intro"
@@ -11,6 +12,8 @@ function App() {
       <Hero/>
       <Intro/>
       <Hightlights/>
+      <Colors/>
+      {/* <Footer/> */}
     </div>
   )
 }
