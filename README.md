@@ -6,4 +6,4 @@ Projeto feito para estudos
 
 *Ainda falta deixar responsivo*
 
-https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css
+https://web-page-iphone-17-react.vercel.app/
